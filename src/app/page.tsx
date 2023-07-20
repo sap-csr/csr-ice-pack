@@ -11,8 +11,8 @@ export default function Home() {
 			<Navbar />
 			<CardNews />
 			<script src='https://snapwidget.com/js/snapwidget.js'></script>
-			<div className='w-full overflow-hidden h-auto pt-5'>
-				<iframe src='https://snapwidget.com/embed/1038963' className='snapwidget-widget' allowTransparency></iframe>
+			<div className='w-full overflow-hidden h-auto pt-5 justify-center'>
+				<iframe src='https://snapwidget.com/embed/1038963' className='snapwidget-widget w-full' allowTransparency></iframe>
 			</div>
 		</main>
 	);
