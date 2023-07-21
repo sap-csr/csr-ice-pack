@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
 	return (
-		<main className='flex flex-col w-full bg-white justify-center'>
+		<main className='flex flex-col w-full bg-white justify-start h-screen'>
 			<Navbar />
 			<CardNews />
 			<script src='https://snapwidget.com/js/snapwidget.js'></script>
