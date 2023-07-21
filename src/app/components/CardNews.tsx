@@ -18,7 +18,7 @@ export class CardNews extends Component {
 		};
 		return (
 			<div className='bg-white text-black text-lg w-full justify-center'>
-				<Slider {...settings} className='m-5'>
+				<Slider {...settings} className='m-5 justify-center'>
 					<div>
 						<Image src='/images/001.png' width='500' height='300' alt='001' />
 					</div>

@@ -12,7 +12,7 @@ export default function Home() {
 			<CardNews />
 			<script src='https://snapwidget.com/js/snapwidget.js'></script>
 			<div className='w-full overflow-hidden h-auto pt-5 justify-center'>
-				<iframe src='https://snapwidget.com/embed/1039024' className='snapwidget-widget w-full' allowTransparency></iframe>
+				<iframe src='https://snapwidget.com/embed/1039024' className='snapwidget-widget w-full'></iframe>
 			</div>
 		</main>
 	);

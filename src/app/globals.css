@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.slick-dots li
+{
+  margin: 0 0px !important;
+}
+
+.slick-slide img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
