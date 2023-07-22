@@ -16,7 +16,7 @@ export default function Home() {
 					<p className='text-center text-gray-500 text-sm mb-3'>
 						해시태그 업데이트 주기는 24h 입니다.
 					</p>
-					<div className='sk-ww-linkedin-hashtag-posts' data-embed-id='170120'>
+					<div className='sk-ww-linkedin-hashtag-posts' data-embed-id='170424'>
 					</div>
 					<script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
 				</section>
