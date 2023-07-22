@@ -29,6 +29,12 @@ export default function Home() {
 					<script src='https://widgets.sociablekit.com/instagram-hashtag-feed/widget.js' async defer></script>
 				</section>
 
+				<footer className='w-full text-center bg-gray-100 p-3 mt-10 border-t border-gray-200'>
+					<p className='text-gray-600 text-sm'>
+						© 2023. 에코 플랜터즈 All right reserved.
+					</p>
+				</footer>
+
 			</main>
 		</div>
 	);
