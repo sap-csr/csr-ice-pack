@@ -31,7 +31,7 @@ export default function Home() {
 
 				<footer className='w-full text-center bg-gray-100 p-3 mt-10 border-t border-gray-200'>
 					<p className='text-gray-600 text-sm'>
-						Copyright © 2023 by SAP
+						© 2023. SAP All rights reserved.
 					</p>
 				</footer>
 			</main>
