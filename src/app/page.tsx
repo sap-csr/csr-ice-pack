@@ -20,7 +20,7 @@ export default function Home() {
 			</div>
 
 			<div className='w-full overflow-hidden h-auto pt-5 justify-center pb-5'>
-<div class='sk-ww-linkedin-hashtag-posts' data-embed-id='170120'></div><script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
+<div className='sk-ww-linkedin-hashtag-posts' data-embed-id='170120'></div><script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
 
 			</div>
 
