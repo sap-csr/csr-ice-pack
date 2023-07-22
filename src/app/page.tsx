@@ -10,10 +10,21 @@ export default function Home() {
 		<main className='flex flex-col w-full bg-white justify-start'>
 			<Navbar />
 			<CardNews />
-			<script src='https://snapwidget.com/js/snapwidget.js'></script>
+
 			<div className='w-full overflow-hidden h-auto pt-5 justify-center pb-5'>
-				<iframe src='https://snapwidget.com/embed/1039024' className='snapwidget-widget w-full'></iframe>
+        <p className='text-center text-gray-300 text-sm'>
+        인스타그램과 링크드인 해시태그의 업데이트 주기는 24시간입니다.
+        </p>
+<div class='sk-ww-instagram-hashtag-feed' data-embed-id='170285'></div><script src='https://widgets.sociablekit.com/instagram-hashtag-feed/widget.js' async defer></script>
+
 			</div>
+
+			<div className='w-full overflow-hidden h-auto pt-5 justify-center pb-5'>
+<div class='sk-ww-linkedin-hashtag-posts' data-embed-id='170120'></div><script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
+
+			</div>
+
 		</main>
 	);
 }
+
