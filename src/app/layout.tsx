@@ -9,7 +9,7 @@ const notoSansKr = Noto_Sans_KR({
 	weight: ['100', '400', '700', '900'], // 가변 폰트가 아닌 경우, 사용할 fontWeight 배열
 });
 
-const bagelFatOne = Bagel_Fat_One({subsets: ['latin'], weight: '400'})
+const bagelFatOne = Bagel_Fat_One({ subsets: ['latin'], weight: '400' })
 
 export const metadata = {
 	title: 'CSR',

@@ -7,23 +7,32 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
 	return (
-		<main className='flex flex-col w-full bg-white justify-start'>
+		<main className='flex flex-col w-full bg-white justify-center items-center py-10'>
 			<Navbar />
 			<CardNews />
 
-			<div className='w-full overflow-hidden h-auto pt-5 justify-center pb-5'>
-        <p className='text-center text-gray-300 text-sm'>
-        인스타그램과 링크드인 해시태그의 업데이트 주기는 24시간입니다.
-        </p>
-<div className='sk-ww-instagram-hashtag-feed' data-embed-id='170285'></div><script src='https://widgets.sociablekit.com/instagram-hashtag-feed/widget.js' async defer></script>
+			<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
+				<p className='text-center text-gray-500 text-sm mb-3'>
+					해시태그의 업데이트 주기는 24시간입니다.
+				</p>
+				<div className='sk-ww-linkedin-hashtag-posts' data-embed-id='170120'>
+					링크드인
+				</div>
+				<script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
+			</section>
 
-			</div>
+			<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
+				<div className='sk-ww-instagram-hashtag-feed' data-embed-id='170285'>
+					인스타그램
+				</div>
+				<script src='https://widgets.sociablekit.com/instagram-hashtag-feed/widget.js' async defer></script>
+			</section>
 
-			<div className='w-full overflow-hidden h-auto pt-5 justify-center pb-5'>
-<div className='sk-ww-linkedin-hashtag-posts' data-embed-id='170120'></div><script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
-
-			</div>
-
+			<footer className='w-full text-center bg-gray-100 p-3 mt-10 border-t border-gray-200'>
+				<p className='text-gray-600 text-sm'>
+					Copyright © 2023 by SAP
+				</p>
+			</footer>
 		</main>
 	);
 }
