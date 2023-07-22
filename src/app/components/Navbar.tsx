@@ -7,9 +7,6 @@ const Navbar = () => {
 			<Link href='https://www.sap.com/korea/sustainability.html' className='text-lg text-white font-extralight'>
 				SAP.지속가능한
 			</Link>
-			<Link href='https://www.instagram.com/eco_planters2023/' className='text-lg text-white pl-2 font-extralight'>
-				에코플랜터즈
-			</Link>
 		</nav>
 	);
 };
