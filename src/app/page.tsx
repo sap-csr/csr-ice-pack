@@ -18,12 +18,6 @@ export default function Home() {
 				</section>
 
 				<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
-					<div style={{ display: "flex", justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-						<iframe width="auto" height="auto" src="https://www.youtube.com/embed/maGXXOjWrxQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					</div>
-				</section>
-
-				<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
 					<p className='text-center text-gray-300 text-sm mb-3'>
 						해시태그 업데이트 주기는 24h 입니다.
 					</p>
