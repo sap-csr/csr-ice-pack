@@ -1,12 +1,15 @@
-import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
 	return (
-		<nav className='flex items-center justify-between px-2 text-4xl font-semibold py-3 bg-gradient-to-r from-cyan-500/75 to-blue-500/75'>
-			<Link href='https://www.sap.com/korea/sustainability.html' className='text-lg text-white font-extralight'>
+		<nav className='flex items-center justify-between p-2 md:px-4 text-4xl font-semibold py-3 bg-gradient-to-r from-cyan-500/75 to-blue-500/75'>
+			<a href='https://www.sap.com/korea/sustainability.html' 
+			   className='text-lg text-white font-extralight hover:text-gray-300 transition-colors duration-200' 
+			   target='_blank'
+			   rel='noopener noreferrer'
+			>
 				SAP.지속가능한
-			</Link>
+			</a>
 		</nav>
 	);
 };
