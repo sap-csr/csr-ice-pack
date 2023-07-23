@@ -24,7 +24,7 @@ export default function Home() {
 				<footer className='w-full text-center bg-gray-100 p-3 mt-10 border-t border-gray-200'>
 					<p className='text-gray-600 text-sm'>
 						<a href="https://www.instagram.com/eco_planters2023/">
-						© 2023. 에코 플랜터즈 All right reserved.
+							© 2023. 에코 플랜터즈 All right reserved.
 						</a>
 					</p>
 				</footer>

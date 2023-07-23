@@ -4,9 +4,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const notoSansKr = Noto_Sans_KR({
-	subsets: ['latin'], 
+	subsets: ['latin'],
 	preload: true,
-	weight: ['100', '400', '700', '900'], 
+	weight: ['100', '400', '700', '900'],
 });
 
 export const metadata = {

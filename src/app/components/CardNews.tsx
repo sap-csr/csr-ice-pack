@@ -12,10 +12,10 @@ export class CardNews extends Component {
 			dots: true,
 			fade: true,
 			infinite: true,
-			speed: 500, 
+			speed: 500,
 			slidesToShow: 1,
 			slidesToScroll: 1,
-			cssEase: 'ease', 
+			cssEase: 'ease',
 		};
 
 		const images = Array.from({ length: 11 }, (_, i) => `/images/ep2023_${i + 1}.png`);
