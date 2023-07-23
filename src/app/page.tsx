@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import Navbar from './components/Navbar';
 import CardNews from './components/CardNews';
@@ -11,6 +10,10 @@ export default function Home() {
 			<Navbar />
 			<main className='flex flex-col justify-center items-center py-10'>
 				<CardNews />
+
+				<section className='flex flex-col w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5 items-center'>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Pf1fMbGCDGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</section>
 
 				<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
 					<p className='text-center text-gray-300 text-sm mb-3'>
@@ -33,4 +36,3 @@ export default function Home() {
 		</div>
 	);
 }
-
