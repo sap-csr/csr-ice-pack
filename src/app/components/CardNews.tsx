@@ -16,42 +16,17 @@ export class CardNews extends Component {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 		};
+
+		const images = Array.from({ length: 11 }, (_, i) => `/images/ep2023_${i + 1}.png`);
+
 		return (
 			<div className='bg-white text-black text-lg w-full justify-center'>
 				<Slider {...settings} className='m-5 justify-center'>
-					<div>
-						<Image src='/images/001.png' width='500' height='300' alt='001' />
-					</div>
-					<div>
-						<Image src='/images/002.png' width='500' height='300' alt='002' />
-					</div>
-					<div>
-						<Image src='/images/003.png' width='500' height='300' alt='003' />
-					</div>
-					<div>
-						<Image src='/images/004.png' width='500' height='300' alt='004' />
-					</div>
-					<div>
-						<Image src='/images/005.png' width='500' height='300' alt='005' />
-					</div>
-					<div>
-						<Image src='/images/006.png' width='500' height='300' alt='006' />
-					</div>
-					<div>
-						<Image src='/images/007.png' width='500' height='300' alt='007' />
-					</div>
-					<div>
-						<Image src='/images/008.png' width='500' height='300' alt='008' />
-					</div>
-					<div>
-						<Image src='/images/009.png' width='500' height='300' alt='009' />
-					</div>
-					<div>
-						<Image src='/images/010.png' width='500' height='300' alt='010' />
-					</div>
-					<div>
-						<Image src='/images/011.png' width='500' height='300' alt='011' />
-					</div>
+					{images.map((image, index) => (
+						<div key={index}>
+							<Image src={image} width='500' height='300' alt={`ep2023_${index + 1}`} />
+						</div>
+					))}
 				</Slider>
 			</div>
 		);
