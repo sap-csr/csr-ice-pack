@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google';
 import Navbar from './components/Navbar';
 import CardNews from './components/CardNews';
 import YoutubeCard from './components/YoutubeCard';
+import Footer from './components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,9 +20,7 @@ export default function Home() {
 					<script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
 				</section>
 
-				<footer className='w-full text-center bg-gray-100 p-3 mt-10 border-t border-gray-200'>
-					<p className='text-gray-600 text-sm'>© 2023. 에코플랜터즈 All right reserved.</p>
-				</footer>
+				<Footer />
 			</main>
 		</div>
 	);
