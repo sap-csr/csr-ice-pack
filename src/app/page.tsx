@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import Navbar from './components/Navbar';
 import CardNews from './components/CardNews';
+import CardNewsLocation from './components/CardNewsLocation';
 import YoutubeCard from './components/YoutubeCard';
 import Footer from './components/Footer';
 
@@ -12,6 +13,7 @@ export default function Home() {
 			<Navbar />
 			<main className='flex flex-col justify-center items-center py-10'>
 				<CardNews />
+				<CardNewsLocation />
 				<YoutubeCard href='https://www.youtube.com/embed/Pf1fMbGCDGI' />
 
 				<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
