@@ -22,6 +22,12 @@ export default function Home() {
 					<script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
 				</section>
 
+				<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
+					<script src='https://snapwidget.com/js/snapwidget.js'></script>
+					<iframe src='https://snapwidget.com/embed/1039024' className='snapwidget-widget w-full'></iframe>
+				</section>
+
+
 				<Footer />
 			</main>
 		</div>
