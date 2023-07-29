@@ -18,7 +18,7 @@ export default function Home() {
 
 				<section className='w-3/4 bg-gray-50 shadow-lg p-5 rounded-lg mt-5'>
 					<p className='text-center text-gray-300 text-sm mb-3'>해시태그 업데이트 주기는 24h 입니다.</p>
-					<div className='sk-ww-linkedin-hashtag-posts' data-embed-id='170424'></div>
+					<div className='sk-ww-linkedin-hashtag-posts' data-embed-id='173384'></div>
 					<script src='https://widgets.sociablekit.com/linkedin-hashtag-posts/widget.js' async defer></script>
 				</section>
 
