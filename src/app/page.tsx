@@ -3,12 +3,15 @@ import CardNews from './components/CardNews';
 import CardNewsLocation from './components/CardNewsLocation';
 import YoutubeCard from './components/YoutubeCard';
 import Footer from './components/Footer';
+import AudioPlayer from './components/AudioPlayer';
 
 export default function Home() {
   return (
     <div className='w-full bg-white'>
       <Navbar />
       <main className='flex flex-col justify-center items-center py-10'>
+		<AudioPlayer />
+
         <CardNews />
         <CardNewsLocation />
         <YoutubeCard href='https://www.youtube.com/embed/Pf1fMbGCDGI' />

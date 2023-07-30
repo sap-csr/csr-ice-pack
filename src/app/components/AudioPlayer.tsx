@@ -4,11 +4,10 @@ import React, { Component } from 'react';
 class AudioPlayer extends Component {
     render() {
         return (
-            <div className='audio-player-container'>
-                <audio controls className='audio-player'>
-                    <source src="/audio/ep2023_bgm.mp3" type="audio/mpeg" />
-                </audio>
-            </div>
+            <audio controls className='flex items-center justify-between p-2 md:px-4 text-4xl font-semibold py-3'>
+                <source src="/audio/ep2023_bgm.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
         );
     }
 }
