@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
+
 	return (
 		<nav className='flex items-center justify-between p-2 md:px-4 text-4xl font-semibold py-3 bg-gradient-to-r from-cyan-500/75 to-blue-500/75'>
 			<a href='https://www.sap.com/korea/sustainability.html'

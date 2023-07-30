@@ -39,3 +39,15 @@ body {
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
+
+.audio-player-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.audio-player {
+  max-width: 90%; 
+  height: auto;
+}

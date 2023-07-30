@@ -18,14 +18,14 @@ export class CardNews extends Component {
 			cssEase: 'ease',
 		};
 
-		const images = Array.from({ length: 11 }, (_, i) => `/images/ep2023_${i + 1}.png`);
+		const images = Array.from({ length: 10 }, (_, i) => `/images/ep2023_main_${i + 1}.png`);
 
 		return (
 			<div className='bg-white text-black text-lg w-full justify-center'>
 				<Slider {...settings} className='m-5 justify-center'>
 					{images.map((image, index) => (
 						<div key={index}>
-							<Image src={image} width='500' height='300' alt={`ep2023_${index + 1}`} />
+							<Image src={image} width='500' height='300' alt={`ep2023_main_${index + 1}`} />
 						</div>
 					))}
 				</Slider>
